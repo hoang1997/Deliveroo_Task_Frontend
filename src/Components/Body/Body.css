@@ -1,0 +1,19 @@
+.restaurantFound {
+    size: 20px; 
+    opacity: 0.5; 
+    margin-left: 50px;
+}
+
+.restaurantFoundContainer {
+    margin: 20px auto;
+    position: block; 
+}
+
+@media only screen and (max-width: 800px) {
+    .restaurantFound {
+        margin: 0px;
+    }
+    .restaurantFoundContainer {
+        text-align: center;
+    }
+}

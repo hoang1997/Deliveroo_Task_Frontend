@@ -1,0 +1,47 @@
+.userName {
+    margin-left: 10px;
+}
+
+.smallLogo {
+    opacity: 0.8;
+    width: 37px;
+    display:none;
+}
+
+.logoContainer {
+    margin: 20px 0px 0px 50px;
+    text-align: left;
+}
+
+.userInfoContainer {
+    padding: auto; 
+    display:flex;
+    float: right;
+    height: 20px;
+    margin: 25px 50px 0px 0px;
+    text-align: right;
+}
+
+@media only screen and (max-width: 800px) {
+    .userName {
+        display: none;
+    }
+
+    .smallLogo {
+        width:35px;
+        display:inline-block;
+        margin-left: 0px;
+    }
+
+    .logo {
+        display:none;
+    }
+
+    .logoContainer {
+        margin: 20px 0px 0px 20px;
+    }
+
+    .userInfoContainer {
+        margin: 25px 20px 0px 0px;
+    }
+}
