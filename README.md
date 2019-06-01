@@ -10,4 +10,4 @@ This application was created using 'create-react-app' with depencies from 'react
 
 ## Example Images Of Task from different aspect ratios:
 ![Example Image](/example-images/normal.png)
-![Example Image](/example-images/small.png)
+![Example Image](/example-images/small.png =50x)
