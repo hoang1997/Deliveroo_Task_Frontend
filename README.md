@@ -8,6 +8,6 @@ This application was created using 'create-react-app' with depencies from 'react
 2. Run "npm install"
 3. Run "npm start"
 
-## Example Images Of Task from different aspect ratios:
+## Example Image
 ![Example Image](/example-images/normal.png)
-![Example Image](/example-images/small.png | width=100)
+
