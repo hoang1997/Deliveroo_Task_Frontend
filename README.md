@@ -9,4 +9,5 @@ This application was created using 'create-react-app' with depencies from 'react
 3. Run "npm start"
 
 ## Example Images Of Task from different aspect ratios:
-
+![Example Image](/example-images/normal.png)
+![Example Image](/example-images/small.png)
