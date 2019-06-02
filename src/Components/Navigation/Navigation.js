@@ -3,7 +3,7 @@ import logo from "../../rsc/svg/logo-horizontal.svg"
 import userIcon from "../../rsc/svg/user-icon.svg";
 import './Navigation.css';
 
-export default class Banner extends Component {
+export default class Navigation extends Component {
   render() {
       return (
         <div style={{ height: "60px", display: "flex", justifyContent: "space-between"}}>
