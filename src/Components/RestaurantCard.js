@@ -5,7 +5,7 @@ export default class RestaurantCard extends Component {
     render() {
         const { data } = this.props;
 
-        function returnPrice(count) {
+        const PriceRange = (count) => {
           var price = "";
           for (var i = 0; i <= count; i++) {
             price += "£";
@@ -23,7 +23,7 @@ export default class RestaurantCard extends Component {
                             <Card.Text style={{ opacity: "0.5" }}>
                                 {data.tags.map((tag, index) => {
                                     if (index === data.tags.length - 1) {
-                                        return tag + "  \u2022 " + returnPrice(data.price);
+                                        return tag + "  \u2022 " + PriceRange(data.price);
                                     }
                                     else {return tag + "  \u2022 ";}
                                 })}
