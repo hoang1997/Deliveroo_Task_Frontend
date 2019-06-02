@@ -7,7 +7,7 @@ export default class Navigation extends Component {
   render() {
       return (
         <div style={{ height: "60px", display: "flex", justifyContent: "space-between"}}>
-          <div align="left" className="logoContainer">
+          <div className="logoContainer">
             <a href="https://deliveroo.co.uk/">
               <img src={logo} alt="logo" className="logo" />
             </a>
@@ -15,7 +15,7 @@ export default class Navigation extends Component {
               <img src={require("../../rsc/logo.png")} alt="small logo" className="smallLogo"/>
             </a>
           </div>
-          <div align="right" className="userInfoContainer">
+          <div className="userInfoContainer">
             <img src={userIcon} alt="user icon" />
             <div className="userName">Jane Smith</div>
           </div>
