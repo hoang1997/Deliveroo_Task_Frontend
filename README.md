@@ -1,6 +1,8 @@
 ## Introduction
 
-This application was created using 'create-react-app' with depencies from 'react-bootstrap'. React Bootstrap was used for the purpose of Columns, Rows, and Cards.
+This application was created using 'create-react-app' with dependencies from 'react-bootstrap'. React Bootstrap was used for the purpose of Columns, Rows, and Cards.
+
+This application requires the installation of node.js for the Node Package Manager(npm). 
 
 ## To Run:
 
